@@ -1,4 +1,4 @@
 myhdl
 pytest
 git+https://github.com/Insper/bits-e-proc-tools
-git+https://github.com/insper-classroom/telementry-client-py
+git+https://github.com/insper-education/telemetry-pytest
