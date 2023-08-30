@@ -1,15 +1,16 @@
 {
   "image": "rafaelcorsi/bits",
-  "runArgs": ["--privileged"],
+//  "runArgs": ["--privileged"],
+//  "workspaceMount": "type=bind,source=${localWorkspaceFolder},target=/workspaces/",
   "customizations": {
     "vscode": {
-      "extensions": ["streetsidesoftware.code-spell-checker"]
+  //    "extensions": ["streetsidesoftware.code-spell-checker"]
     }
   },
   "forwardPorts": [3000],
   "mounts": [
     "source=${localEnv:HOME}/.telemetry.ini,target=/root/.telemetry.ini,type=bind,consistency=cached",
     "source=${localEnv:HOME}/.telemetry.obj,target=/root/.telemetry.obj,type=bind,consistency=cached",
-    "type=bind,source=/dev/bus/usb,target=/dev/bus/usb"
+//    "type=bind,source=/dev/bus/usb,target=/dev/bus/usb"
   ]
 }
